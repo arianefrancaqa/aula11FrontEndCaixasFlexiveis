@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #222222;
+  height: 100px;
+  width: 100%;
+}
+
+.pizza-logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 28.13px;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+}
+
+.pizza-photo {
+  margin-top: 9%;
+  margin-left: 9%;
+}
+
+.logo-text {
+  color: #39b24a;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.logo-front-text {
+  color: red;
+}
+
+span {
+  color: white;
+}
+
+.menu {
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.menu:nth-child(2) {
+  display: flex;
+  gap: 25px;
+  justify-content: flex-end;
+  justify-items: baseline;
+  margin-top: -56px;
+  margin-right: 5%;
+}
+
+.container-principal {
+  background: #E5E5E5;
+  gap: 15px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+  justify-items: center;
+
+}
+
+.promocao {
+  width: 490px;
+  height: 350px;
+  background-image: url("../img/delivery.jpg");
+  display: flex;
+  justify-content: center;
+  color: #fc200c;
+  margin-top: 4%;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+
+.cardapio {
+  width: 490px;
+  height: 350px;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  margin-left: -200px;
+  color: #fc200c;
+  background: #ffffff;
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  gap: 15%;
+
+}
+
+.header-cardapio {
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-content: space-around;
+}
+
+.top-cinco {
+  color: black;
+  margin-top: 35px;
+  margin-right: 50%;
+}
+
+.top-cinco-text {
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+
+.sabores-list {
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardapio .pizza-img {
+  display: flex;
+  margin-top: -35%;
+  margin-right: -50%;
+}
