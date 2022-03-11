@@ -55,7 +55,7 @@ span {
 }
 
 .container-principal {
-  background: #E5E5E5;
+  background: #e5e5e5;
   gap: 15px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -66,7 +66,6 @@ span {
   grid-template-columns: 1fr 1fr;
   grid-gap: 2px;
   justify-items: center;
-
 }
 
 .promocao {
@@ -92,10 +91,9 @@ span {
   border-radius: 1%;
   display: flex;
   flex-direction: column;
-  
+
   align-items: center;
   gap: 15%;
-
 }
 
 .header-cardapio {
@@ -132,4 +130,30 @@ span {
   display: flex;
   margin-top: -35%;
   margin-right: -50%;
+}
+
+footer {
+  background-color: #222222;
+  height: 100%;
+  width: 100%;
+}
+
+footer .menu {
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+footer .menu ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+footer .pizza-logo {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -5.7%;
+  margin-right: 2%;
 }
